@@ -30,16 +30,21 @@
     </Shell.Resources>
 
     <TabBar>
-
+        <ShellContent Title="Featured" Route="FeaturedPage" ContentTemplate="{DataTemplate local:FeaturedPage }"   />
+        <ShellContent Title="Challenges" Route="ChallengesPage" ContentTemplate="{DataTemplate local:ChallengesPage }" />
+        <ShellContent Title="Classes" Route="ClassesPage" ContentTemplate="{DataTemplate local:ClassesPage }" />
+        <ShellContent Title="Profile" Route="ProfilePage" ContentTemplate="{DataTemplate local:ProfilePage }" />
+        
+        
     </TabBar>
+
+
 
     <!--
         If you would like to navigate to this content you can do so by calling
         await Shell.Current.GoToAsync("//LoginPage");
     -->
-    <TabBar>
 
-    </TabBar>
 
 
 </Shell>

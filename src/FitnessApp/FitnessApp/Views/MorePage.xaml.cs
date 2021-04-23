@@ -10,6 +10,8 @@ using Xamarin.Forms.Xaml;
 namespace FitnessApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
+
+    [Xamarin.Forms.ContentProperty("Content")]
     public partial class MorePage : ContentPage
     {
         public MorePage()
