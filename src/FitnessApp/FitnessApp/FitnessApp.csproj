@@ -6,6 +6,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Fonts\FAregular-400.otf" />
+    <None Remove="Resources\Fonts\FAsolid-400.otf" />
+    <None Remove="Resources\Fonts\FAsolid-900.otf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Fonts\FAregular-400.otf" />
+    <EmbeddedResource Include="Resources\Fonts\FAsolid-400.otf" />
+    <EmbeddedResource Include="Resources\Fonts\FAsolid-900.otf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MonkeyCache.FileStore" Version="1.5.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Refractored.MvvmHelpers" Version="1.6.2" />
@@ -20,7 +32,6 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Resources\Images\" />
-    <Folder Include="Resources\Fonts\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
